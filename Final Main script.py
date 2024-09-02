@@ -182,7 +182,7 @@ def CNN (trainloader,testloader,classes):
   plt.show() # Show the plot
   return 
 if __name__ == '__main__':
-    # Load data using the loaddata function from ENGR133_loaddata_nunnas.py
+    # Load data using the loaddata function from loaddata
     trainloader, testloader, classes = loaddata()
     # Call the CNN function with loaded data
     CNN(trainloader, testloader, classes)
